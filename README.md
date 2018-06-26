@@ -10,7 +10,7 @@ An Alpine-based image that includes
 $ ls
 source.in
 
-$ docker run --rm -it -v $(pwd):/app emyller/pip-tools --output-file requirements.txt source.in
+$ docker run --rm -it -v $(pwd):/app emyller/pip-tools pip-compile --output-file requirements.txt source.in
 (...)
 
 $ ls
