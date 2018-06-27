@@ -1,7 +1,6 @@
 # python-nodejs
 
-An Alpine-based image that includes
-[pip-tools](https://github.com/jazzband/pip-tools).
+A Python image that includes [pip-tools](https://github.com/jazzband/pip-tools).
 
 
 ## How to use
